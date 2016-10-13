@@ -1,10 +1,5 @@
-
-# Supported tags and respective `Dockerfile` links
-
-- `10`, `10.0`, `10.0.1` ([Dockerfile](https://github.com/aheimsbakk/nextcloud/blob/10.0.1/Dockerfile))
-- `10.0.0` ([Dockerfile](https://github.com/aheimsbakk/nextcloud/blob/10.0.0/Dockerfile))
-- `9`, `9.0`, `9.0.53` ([Dockerfile](https://github.com/aheimsbakk/nextcloud/blob/9.0.53/Dockerfile))
-
+# What is
+This is an experiment with booting Dockerised Nextcloud on a Raspberry Pi 3, forked from [aheimsbakk's](https://github.com/aheimsbakk/nextcloud) repo.
 
 # Nextcloud 
 
