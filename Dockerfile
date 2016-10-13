@@ -1,16 +1,8 @@
-# Base it on old stable 
-FROM debian:jessie
+# Experimental, not yet known to work!
+# Based on a working tag of Raspbian Jessie
+FROM resin/rpi-raspbian:jessie-20160831
 
-# This is me
-MAINTAINER Arnulf Heimsbakk <arnulf.heimsbakk@gmail.com>
-
-# Add Debian contrib and use ftp.uio.no
-# FIXME: not for people outside Norway
-RUN { \ 
-        echo deb http://ftp.uio.no/debian jessie main; \
-        echo deb http://ftp.uio.no/debian jessie-updates main; \ 
-        echo deb http://security.debian.org jessie/updates main; \
-    } > /etc/apt/sources.list
+MAINTAINER Cathal Garvey <cathalgarvey@cathalgarvey.me>
 
 # update package cache
 RUN apt-get update
